@@ -1,0 +1,26 @@
+{
+  "name": "designers_tg_bot",
+  "version": "1.0.0",
+  "description": "Freelance designers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GAMch1k/designers_freelance.git"
+  },
+  "author": "GAMch1k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GAMch1k/designers_freelance/issues"
+  },
+  "homepage": "https://github.com/GAMch1k/designers_freelance#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16",
+    "sqlite3": "^5.0.8"
+  }
+}
